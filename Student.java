@@ -1,8 +1,16 @@
 interface Student{
-public int sum(){
+public int add(int a,int b);
+
+
+public int sub(int a,int b);
+
 
 }
-public int sub(){
-
-}
+public class Studentimp{
+    public int add(int a,int b){
+        return a+b;
+    }
+    public int sub(int a,int b){
+        return a-b;
+    }
 }
